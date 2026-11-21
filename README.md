@@ -14,7 +14,7 @@ Chỉ đổi chữ gửi vào TTS. Phụ đề nên giữ nguyên chữ gốc.
 from vi_tts_fixes import clean, number_to_words
 
 clean("【Hệ thống】 còn 27 phút 31 giây, nàng thều thào van xin (lần 2).")
-# 'Hệ thống còn hai mươi bảy phút ba mươi mốt giây, nàng thều thào, van xin, lần hai,.'
+# 'Hệ thống còn hai mươi bảy phút ba mươi mốt giây, nàng thều thào, van xin, lần hai.'
 
 number_to_words(105)   # 'một trăm lẻ năm'
 number_to_words(2025)  # 'hai nghìn không trăm hai mươi lăm'
